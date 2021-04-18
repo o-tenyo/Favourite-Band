@@ -1,12 +1,13 @@
 *{
-    margin:0;
-    padding:0;
+    /* margin: 0; */
+    /* padding:0; */
     /* box-sizing:border-box; */
 }
 h1{
     text-align: center;
     padding-top: 30px;
     font-size: 45px;
+    
 }
 h3{
     font-size: 25px;
@@ -15,11 +16,14 @@ h3{
 body{
     background-color: rgb(207, 219, 219);
     font-family: Arial, Helvetica, sans-serif;
-    /* text-align: center; */
+    text-align: center;
+}
+p{
+    text-align: left;
 }
 .img-section{
     background-color: white;
-    margin: 2%;
+    margin: 30px 90px;
 }
 .img-group{
     width: 95%;
@@ -27,6 +31,10 @@ body{
 figure{
     padding-top: 20px;
     text-align: center;
+}
+.caption{
+    padding: 20px;
+    font-size: 20px;
 }
 a:link {
     text-decoration: none;
@@ -44,3 +52,21 @@ a:link {
     color: red;
     box-shadow: inset 0 0 15px red;
  }
+/* .albums{
+    max-width: 200px;
+    margin: 50px auto;
+} */
+#studio-albums{
+    text-align: left;
+    
+}
+#compilation-albums{
+    text-align: left;
+}
+.album-items{
+    text-align: left;
+}
+/* .section3{
+    display: flex;
+    flex-direction: row;
+} */

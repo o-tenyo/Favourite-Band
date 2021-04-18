@@ -5,8 +5,10 @@
 }
 h1{
     text-align: center;
-    padding-top: 30px;
+    padding: 30px;
     font-size: 50px;
+    border: 0.5px dotted grey;
+    background-color: rgb(250, 249, 249);
     
 }
 h3{
